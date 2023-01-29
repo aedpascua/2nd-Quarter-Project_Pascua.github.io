@@ -1,0 +1,175 @@
+#navlist                {
+  position: relative;
+}
+
+#navlist li             {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+#navlist li, #navlist a {
+  height: 149px;
+  display: block;
+}
+
+#logo                   {
+	background: url('images/logo(5).png') no-repeat -710px -167px ;
+  width: 149px;
+  height: 150px;
+}
+
+#logo :hover            {  
+	background: url('images/logo(5).png') no-repeat -710px -330px;
+	width: 149px;
+  height: 149px;
+}
+
+#span_nav               {
+  position: relative;
+  left: 200px;
+}
+
+span           {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  top: 35px;
+  left: 20px;
+}
+
+nav ul         {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li          {
+  float: left;
+}
+
+nav li a      {
+  display: block;
+  color: #121212;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav           {
+  position: sticky;
+  display: flex;
+  justify-content: left;
+}
+
+html                               {
+  background-image: linear-gradient(to right, white,hsl(0, 0%, 95%), hsl(0, 0%, 85%));
+}
+
+#HOME1, #PHOTOGRAPHY1, #VIDEOGRAPHY1, #ABOUT1, #CONTACT1 {
+  background-color:  hsl(0, 0%, 97%);
+  border: none;
+  color: #080808;
+  padding: 25px;
+  position: relative;
+  top: 85px;
+  left: -240px;
+  transition: 0.2s;
+}
+
+#HOME1:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#HOME1:active {
+  background-color: #2e2d2d;
+} 
+#PHOTOGRAPHY1:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#PHOTOGRAPHY1:active {
+  background-color: #2e2d2d;
+}
+#VIDEOGRAPHY1:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#VIDEOGRAPHY1:active {
+  background-color: #2e2d2d;
+}
+#ABOUT1:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#ABOUT1:active {
+  background-color: #2e2d2d;
+}
+#CONTACT1:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#CONTACT1:active {
+  background-color: #2e2d2d;
+}
+
+header                             {
+  background-image: linear-gradient(to right,  hsl(0, 0%, 15%),hsl(0, 0%, 40%), gray, hsl(0, 0%, 60%));
+  height: 200px;
+}
+
+body            {
+  overflow-x: hidden;
+}
+
+#CONTACT  {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: -100px;
+}
+
+#email         {
+  line-height: 1.6;
+  font-family: arial;
+  position: relative;
+  top: 200px;
+  left: 565px;
+  margin: auto;
+}
+
+footer                                 {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+hr            {
+  position: relative;
+  top: 10px;
+}
+
+#contact_img  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  transform: scalex(1.2)
+}
+
+#contact_number {
+  line-height: 1.6;
+  font-family: Arial;
+  font-size: 20px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}

@@ -1,0 +1,204 @@
+#navlist                {
+  position: relative;
+}
+
+#navlist li             {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+#navlist li, #navlist a {
+  height: 149px;
+  display: block;
+}
+
+#logo                   {
+	background: url('images/logo(5).png') no-repeat -710px -167px ;
+  width: 149px;
+  height: 150px;
+}
+
+#logo :hover            {  
+	background: url('images/logo(5).png') no-repeat -710px -330px;
+	width: 149px;
+  height: 149px;
+}
+
+#span_nav               {
+  position: relative;
+  left: 200px;
+}
+
+span           {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  top: 35px;
+  left: 20px;
+}
+
+nav ul         {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li     {
+  float: left;
+}
+
+nav li a           {
+  display: block;
+  color: #121212;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav           {
+  position: sticky;
+  display: flex;
+  justify-content: left;
+}
+
+#PHOTOGRAPHY   {
+  font-size: 30px;
+  text-align: center;
+}
+
+body            {
+  overflow-x: hidden;
+}
+
+#IntroductionToPhotography_Paragraph  {
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+  margin-left: 100px;
+}
+
+.Introduction_to_Photography          {
+  width: 600px;
+  height: 300px;
+  background-color:  hsl(0, 0%, 95%);
+}
+
+.parent                               {
+  position: relative;
+  top: 120px;
+  left: 0;
+}
+
+.PHOTOGRAPHY_img1                     {
+  position: relative;
+  top: 100px;
+  margin-left: 100px;
+  float: left;
+}
+
+.PHOTOGRAPHY_img2                     {
+  position: relative;
+  top: 300px;
+  margin-left: -155px;
+  float: left;
+}
+
+.PHOTOGRAPHY_img3                     {
+  position: relative;
+  top: 500px;
+  margin-left: 100px;
+  float: left;
+}
+
+#PHOTOGRAPHY_img1_text                 {
+  width: 1000px;
+  position: relative;
+  top: 145px;
+  left: 20px;
+  font-size: 20px;
+}
+
+#PHOTOGRAPHY_img2_text                 {
+  width: 1000px;
+  position: relative;
+  top: 345px;
+  left: 20px;
+  font-size: 20px;
+}
+
+#PHOTOGRAPHY_img3_text                 {
+  width: 1000px;
+  position: relative;
+  top: 570px;
+  left: 20px;
+  font-size: 20px;
+}
+
+footer                                 {
+  text-align: center;
+  position: relative;
+  top: 700px;
+}
+
+html                                    {
+  background-image: linear-gradient(to right, white,hsl(0, 0%, 95%), hsl(0, 0%, 90%));
+}
+
+#HOME2, #PHOTOGRAPHY2, #VIDEOGRAPHY2, #ABOUT2, #CONTACT2  {
+  background-color:  hsl(0, 0%, 97%);
+  border: none;
+  color: #080808;
+  padding: 25px;
+  position: relative;
+  top: 85px;
+  left: -240px;
+  transition: 0.2s;
+}
+
+#HOME2:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#HOME2:active {
+  background-color: #2e2d2d;
+} 
+#PHOTOGRAPHY2:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#PHOTOGRAPHY2:active {
+  background-color: #2e2d2d;
+}
+#VIDEOGRAPHY2:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#VIDEOGRAPHY2:active {
+  background-color: #2e2d2d;
+}
+#ABOUT2:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#ABOUT2:active {
+  background-color: #2e2d2d;
+}
+#CONTACT2:hover {
+  background-color: #e6e6e6;
+  color: black;
+  border-bottom: 3px solid black;
+}
+#CONTACT2:active {
+  background-color: #2e2d2d;
+}
+
+header                                 {
+  background-image: linear-gradient(to right,  hsl(0, 0%, 15%),hsl(0, 0%, 40%), gray, hsl(0, 0%, 60%));
+  height: 200px;
+}

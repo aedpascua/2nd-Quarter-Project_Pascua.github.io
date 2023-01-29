@@ -1,0 +1,170 @@
+*              {
+  margin: 0;
+  padding: 0;
+}
+
+body            {
+  overflow-x: hidden;
+}
+
+#navlist                {
+  position: relative;
+}
+
+#navlist li             {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 37px;
+  left: 35px;
+}
+
+#navlist li, #navlist a {
+  height: 149px;
+  display: block;
+}
+
+#logo                   {
+	background: url('images/logo(5).png') no-repeat -710px -167px ;
+  width: 149px;
+  height: 150px;
+}
+
+#logo :hover            {  
+	background: url('images/logo(5).png') no-repeat -710px -330px;
+	width: 149px;
+  height: 149px;
+}
+
+span           {
+  font-size: 45px;
+  position: relative;
+  top: 30px;
+  left: -35px;
+  color: white;
+  font-family: fantasy;
+  letter-spacing: 1px;
+}
+
+nav ul         {
+  position: relative;
+  left: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #131111;
+}
+
+li            {
+  float: left;
+}
+
+nav li a     {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#index         {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.index_img_Pascua  {
+  display: block;
+  position: relative;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+
+h1                 {
+  text-align: center;
+  position: relative;
+  top: 200px;
+  color: hsl(0, 20%, 96%);
+  font-size: 40px;
+}
+
+html               {
+  background-image: linear-gradient(to right, white,hsl(0, 0%, 95%), hsl(0, 0%, 90%));
+}
+
+.Mainpage          {
+  height: 100vh;
+  background:rgba(0,0,0,0.5) url(images/VenturingAerialPhotographyHome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+}
+
+#HOME, #PHOTOGRAPHY, #VIDEOGRAPHY, #ABOUT, #CONTACT  {
+  background-color: #131111;
+  border: none;
+  color: white;
+  padding: 15px;
+  position: relative;
+  top: 43px;
+  left: -60px;
+  transition: 0.3s;
+}
+
+#HOME:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-bottom: 5px solid black;
+}
+#HOME:active {
+  background-color: #2e2d2d;
+} 
+#PHOTOGRAPHY:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-bottom: 5px solid black;
+}
+#PHOTOGRAPHY:active {
+  background-color: #2e2d2d;
+}
+#VIDEOGRAPHY:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-bottom: 5px solid black;
+}
+#VIDEOGRAPHY:active {
+  background-color: #2e2d2d;
+} 
+#ABOUT:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-bottom: 5px solid black;
+}
+#ABOUT:active {
+  background-color: #2e2d2d;
+}
+#CONTACT:hover {
+  background-color: whitesmoke;
+  color: black;
+  border-bottom: 5px solid black;
+}
+#CONTACT:active {
+  background-color: #2e2d2d;
+}
+
+header             {
+  background-color: #131111;
+  height: 200px;
+  background-blend-mode: darken;
+}
+
+#span_nav          {
+  position: relative;
+  top: 0px;
+  left: 250px;  
+}
+
